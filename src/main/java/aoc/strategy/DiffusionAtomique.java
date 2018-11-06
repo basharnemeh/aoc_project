@@ -2,6 +2,10 @@ package aoc.strategy;
 
 import java.util.concurrent.ExecutionException;
 
+/**
+ * Implementation de la diffusion atomique
+ */
+
 import aoc.generator.Generateur;
 import aoc.observer.ObserverAsync;
 
