@@ -2,9 +2,11 @@ package aoc.generator;
 
 import java.util.List;
 
+import aoc.observer.ObserverAsync;
+
 
 /**
- * Represents Generator Interface
+ * L'interface de generateur
  */
 public interface Generateur {
 	
