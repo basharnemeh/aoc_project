@@ -1,21 +1,14 @@
 package aoc.generator;
 
-import java.util.List;
 
-import aoc.observer.ObserverAsync;
+import aoc.observer.SubjectAsync;
 
 
 /**
  * L'interface de generateur
  */
-public interface Generateur {
+public interface Generateur extends SubjectAsync<Generateur>{
 	
 	public Integer getValue();
-	
-	public void attach (ObserverAsync<Generateur> o);
-
-	public void detach (ObserverAsync<Generateur> o);
-	
-	public List<ObserverAsync<Generateur>> getObservers();
 
 }
