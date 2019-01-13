@@ -2,3 +2,5 @@
 /bin/
 generator.iml
 .idea
+.classpath
+.project
