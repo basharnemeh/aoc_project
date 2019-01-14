@@ -9,7 +9,6 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.RadioButton;
-import javafx.scene.control.ToggleGroup;
 import aoc.canal.Canal;
 import aoc.canal.CanalImpl;
 import aoc.display.Display;
